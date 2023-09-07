@@ -13,6 +13,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // segueから遷移先のAfterViewControllerを取得する
+        let afterviewcontroller:AfterViewController = segue.destination as! AfterViewController
+        afterviewcontroller.name = "x"
+    }
+    
+    @IBAction func comeback(_ segue: UIStoryboardSegue) {
+    }
+    
+    
 
 
 }

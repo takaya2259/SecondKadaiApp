@@ -13,6 +13,7 @@
 		BAB711F12AAA12BE006E759D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB711EF2AAA12BE006E759D /* Main.storyboard */; };
 		BAB711F32AAA12C0006E759D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB711F22AAA12C0006E759D /* Assets.xcassets */; };
 		BAB711F62AAA12C0006E759D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB711F42AAA12C0006E759D /* LaunchScreen.storyboard */; };
+		BAB711FE2AAA1627006E759D /* AfterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB711FD2AAA1627006E759D /* AfterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BAB711F22AAA12C0006E759D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAB711F52AAA12C0006E759D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAB711F72AAA12C0006E759D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAB711FD2AAA1627006E759D /* AfterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				BAB711E92AAA12BE006E759D /* AppDelegate.swift */,
 				BAB711EB2AAA12BE006E759D /* SceneDelegate.swift */,
 				BAB711ED2AAA12BE006E759D /* ViewController.swift */,
+				BAB711FD2AAA1627006E759D /* AfterViewController.swift */,
 				BAB711EF2AAA12BE006E759D /* Main.storyboard */,
 				BAB711F22AAA12C0006E759D /* Assets.xcassets */,
 				BAB711F42AAA12C0006E759D /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAB711EE2AAA12BE006E759D /* ViewController.swift in Sources */,
+				BAB711FE2AAA1627006E759D /* AfterViewController.swift in Sources */,
 				BAB711EA2AAA12BE006E759D /* AppDelegate.swift in Sources */,
 				BAB711EC2AAA12BE006E759D /* SceneDelegate.swift in Sources */,
 			);
